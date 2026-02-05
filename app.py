@@ -4,4 +4,4 @@ def say_hello(name: str, excited: bool = False) -> str:
 
 
 if __name__ == "__main__":
-    print(say_hello("Alice", excited=True))
+    print(say_hello("Alice ", excited=True))
